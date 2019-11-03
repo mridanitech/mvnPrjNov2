@@ -14,6 +14,18 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+<distributionManagement>
+   <snapshotRepository>
+      <id>maven-snapshots</id>
+      <url>http://192.168.122.87:8081/repository/maven-snapshots</url>
+   </snapshotRepository>
+
+	<repository>
+         <id>maven-releases</id>
+         <url>http://192.168.122.87:8081/repository/maven-releases/</url>
+    </repository>
+</distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
